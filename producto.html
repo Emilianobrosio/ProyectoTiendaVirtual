@@ -1,0 +1,62 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda virtual</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/IMG/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="index.html">tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="IMG/3.jpg" alt="imagen producto">
+
+            <div class="camisa__contenido">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nunc neque, ullamcorper rhoncus
+                    fringilla
+                    sit amet, dapibus nec ante. Etiam viverra libero metus, id pharetra tortor condimentum quis. In erat
+                    nisi, maximus vitae laoreet facilisis, blandit nec tellus. Curabitur odio velit,</p>
+
+                <form>
+                    <div class="grid__formulario">
+                        <select class="formulario__select">
+                            <option disabled selected> Seleccionar talle </option>
+                            <option>SMALL</option>
+                            <option>MEDIUM</option>
+                            <option>LARGE</option>
+                            <option>EXTRA-LARGE</option>
+                        </select>
+
+                        <input class="formulario__cantidad" type="number" placeholder="Cantidad" max="50" min="1">
+                    </div> <!-- .GRID_FORMULARIO-->
+                    <input class="formulario__boton" type="submit" value="Agregar al carrito">
+                </form>
+            </div> <!-- .CAMISA__CONTENIDO -->
+        </div> <!-- .CAMISA -->
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022. &copy;</p>
+    </footer>
+</body>
+
+</html>
